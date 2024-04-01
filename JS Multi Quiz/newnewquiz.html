@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="new.css">
+    <title>Javascript Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Humber Quiz</h1>
+        <form id="loginForm">
+            <h2>Login</h2>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button id="submit" type="submit">Login</button>
+        </form>
+        <div id="questions-list" class="hide">
+            <div id="question" class="question-text">What up?</div>
+            <div id="answers-buttons" class="answer-grid">
+                <button class="btn">Answer #1</button>
+                <button class="btn">Answer #2</button>
+                <button class="btn">Answer #3</button>
+                <button class="btn">Answer #4</button>
+            </div>
+        </div>
+        <div class="next">
+            <button id="next-btn" class="next-btn btn hide">Next</button>
+        </div>
+    </div>
+
+    <script src="newq.js"></script>
+</body>
+</html>
